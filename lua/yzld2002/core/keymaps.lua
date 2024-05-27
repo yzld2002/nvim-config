@@ -80,3 +80,10 @@ keymap.set("n", "<leader>tt", "<cmd>ToggleTerm<cr>")
 keymap.set("n", "<leader>tf", "<cmd>TestFile<cr>")
 keymap.set("n", "<leader>tl", "<cmd>TestLast<cr>")
 keymap.set("n", "<leader>te", "<cmd>TestEdit<cr>")
+
+-- Navigator.nvim
+vim.keymap.set({ "n", "t" }, "<A-h>", "<CMD>NavigatorLeft<CR>")
+vim.keymap.set({ "n", "t" }, "<A-l>", "<CMD>NavigatorRight<CR>")
+vim.keymap.set({ "n", "t" }, "<A-k>", "<CMD>NavigatorUp<CR>")
+vim.keymap.set({ "n", "t" }, "<A-j>", "<CMD>NavigatorDown<CR>")
+vim.keymap.set({ "n", "t" }, "<A-p>", "<CMD>NavigatorPrevious<CR>")

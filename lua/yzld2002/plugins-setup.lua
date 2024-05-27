@@ -109,5 +109,8 @@ lazy.setup({
 
 		-- toggle term
 		{ "akinsho/toggleterm.nvim", version = "*" },
+
+		-- Navigator
+		{ "numToStr/Navigator.nvim", config = true },
 	},
 })
